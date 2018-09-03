@@ -1,0 +1,58 @@
+users :
+	id
+	firstName
+	lastName
+	emailAddress
+	password
+	countryCode	
+	mobileNumber	
+	longitude
+	latitude
+	available : offline,online
+	createdOn:
+	isActive = 0 -> Active , 1 -> InActive
+	userType = 1- Rider,2- Driver
+
+car_details:
+	userId 
+	Carname : 
+	Car No :		
+	actived : 0-Actived, 1-deactivated
+	deleteFlag : 0,1
+trip:  
+	pickUpLocationName:
+	pickupLocationLatitude:
+	pickupLocationLongitude:
+
+	dropLocationName:
+	dropLocationLatitude:
+	dropLocationLatitude:
+	
+	timeToPickup: TimeStamp (UTC)
+	timeToDropup: TimeStamp (UTC)
+	createdOn:	
+	
+	rideBy: 
+	driveBy:  
+	
+	status : pickuping,started,completed
+	completedBy : userId
+	holdReason : 'Rider can cancel request'
+	tripPaymentId 
+
+trip_payment : 
+	id:
+	amount
+	status : completed,Pending
+
+Rating :
+	userId:
+	ratedBy:
+	rating:
+	reason:
+
+
+	
+	
+	
+
